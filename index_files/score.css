@@ -1,0 +1,70 @@
+
+#score-table  thead tr{
+	background:#ccc;
+}
+#score-table thead  th{
+	font-size:11px;
+	padding:3px 10px;
+}
+
+#score-table td{
+	border-bottom:#cfcfcf solid 1px;
+	text-align:center;
+}
+#score-table .league td{
+    background: #343434;
+    padding: 2px 10px 3px;
+    text-align:left;
+
+}
+#score-table .league td a{
+    color: #fff;
+
+}
+
+#score-table .match td{
+     padding: 10px;
+     font-size:13px;
+}
+#score-table .match .playing{
+     color:#f30;
+}
+#score-table .match .time{
+    width:80px;
+    
+    font-size:12px;
+}
+#score-table .match .status{
+    width:75px;
+    font-size:11px;
+}
+#score-table  .home{
+   
+    text-align:right;
+}
+#score-table .match .score{
+    width:50px;
+    font-weight:bold;
+    color:#039;
+}
+#score-table .away{
+    text-align:left;
+}
+#score-table .match .ht{
+    width:50px;
+    font-size:12px;
+}
+#score-table .match .hd{
+    width:50px;
+    font-size:12px;
+    font-weight:bold;
+    color:#933;
+   
+}
+#score-table .tor{
+    font-weight:bold;
+    text-decoration:underline;
+   
+}
+tr:nth-child(even) {background: #fff}
+tr:nth-child(odd) {background: #f0f0f0}
